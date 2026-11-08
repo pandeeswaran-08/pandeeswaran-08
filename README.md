@@ -1,3 +1,8 @@
+<!-- Magical portal animation (head) -->
+<div align="center">
+  <img src="magical_portal_animation.gif" alt="Magical Portal Animation" width="100%" />
+</div>
+
 <!-- Animated wave header -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Pandeeswaran%20P&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Data%20Science%20Student&descAlignY=58&descSize=20" alt="Header" width="100%" />
@@ -93,6 +98,15 @@ I'm a B.Tech student in Artificial Intelligence and Data Science at **Nadar Sara
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=pandeesp448-lgtm&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</div>
+
+## 📟 Contribution Monitor
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/amber-dark.svg" />
+    <img alt="CRT-style contribution chart" src="assets/amber-light.svg" width="745" />
+  </picture>
 </div>
 
 ## 🐍 Contribution Snake
