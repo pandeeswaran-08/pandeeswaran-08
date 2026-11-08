@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495" height="195" fill="none">
+  <defs>
+    <linearGradient id="langsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f141c"/>
+      <stop offset="50%" stop-color="#161e2b"/>
+      <stop offset="100%" stop-color="#0f141c"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .card-title {
+      font-family: ui-monospace, SFMono-Regular, "Segoe UI", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      fill: #ffb347;
+      letter-spacing: 0.05em;
+    }
+    .lang-name {
+      font-family: "Segoe UI", Ubuntu, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #e6edf3;
+    }
+    .lang-pct {
+      font-family: ui-monospace, SFMono-Regular, monospace;
+      font-size: 12px;
+      font-weight: 700;
+      fill: #8b949e;
+    }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="493" height="193" rx="10" fill="url(#langsBg)" stroke="#30363d" stroke-width="1.2"/>
+
+  <!-- Title -->
+  <text x="25" y="32" class="card-title">🚀 Most Used Languages &amp; Stacks</text>
+  <line x1="25" y1="42" x2="470" y2="42" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Stack Bar (Combined) -->
+  <g transform="translate(25, 55)">
+    <rect x="0" y="0" width="180" height="8" rx="4" fill="#3572A5"/>
+    <rect x="184" y="0" width="130" height="8" rx="4" fill="#3178C6"/>
+    <rect x="318" y="0" width="80" height="8" rx="4" fill="#f1e05a"/>
+    <rect x="402" y="0" width="43" height="8" rx="4" fill="#38ef7d"/>
+  </g>
+
+  <!-- Legend 1: Python -->
+  <circle cx="34" cy="90" r="5" fill="#3572A5"/>
+  <text x="48" y="94" class="lang-name">Python (AI / ML / FastAPI)</text>
+  <text x="470" y="94" class="lang-pct" text-anchor="end">41%</text>
+
+  <!-- Legend 2: TypeScript -->
+  <circle cx="34" cy="115" r="5" fill="#3178C6"/>
+  <text x="48" y="119" class="lang-name">TypeScript (Next.js / NestJS)</text>
+  <text x="470" y="119" class="lang-pct" text-anchor="end">30%</text>
+
+  <!-- Legend 3: JavaScript -->
+  <circle cx="34" cy="140" r="5" fill="#f1e05a"/>
+  <text x="48" y="144" class="lang-name">JavaScript (Node / React)</text>
+  <text x="470" y="144" class="lang-pct" text-anchor="end">18%</text>
+
+  <!-- Legend 4: SQL and Geodata -->
+  <circle cx="34" cy="165" r="5" fill="#38ef7d"/>
+  <text x="48" y="169" class="lang-name">SQL, PostGIS &amp; Others</text>
+  <text x="470" y="169" class="lang-pct" text-anchor="end">11%</text>
+</svg>

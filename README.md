@@ -5,7 +5,7 @@
 
 <!-- Animated wave header -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Pandeeswaran%20P&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Data%20Science%20Student&descAlignY=58&descSize=20" alt="Header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Pandeeswaran%20P&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26amp%3B%20Data%20Science%20Student&descAlignY=58&descSize=20" alt="Header" width="100%" />
 </div>
 
 <!-- Typing animation -->
@@ -37,6 +37,11 @@
 ## 👨‍💻 About Me
 
 I'm a B.Tech student in Artificial Intelligence and Data Science at **Nadar Saraswathi College of Engineering and Technology (NSCET), Theni**, affiliated with Anna University. I'm building my skills toward a career as an AI Engineer, specializing in Machine Learning, Graph Neural Networks, LLMs/RAG, and Full-Stack Engineering.
+
+- 🔭 **Current Focus:** Deep Learning, Autonomous AI Agents & GNN Architectures
+- 🎓 **Academics:** 3rd Year B.Tech AI & Data Science @ NSCET
+- 💼 **Open To:** AI/ML Internships, Freelance Development & Collaborative Research
+- 💬 **Ask Me About:** Python, FastAPI, PyTorch, Next.js, and Satellite Geospatial Analytics
 
 ## 🔭 Featured Projects
 
@@ -73,7 +78,7 @@ I'm a B.Tech student in Artificial Intelligence and Data Science at **Nadar Sara
   </tr>
 </table>
 
-## 🧠 Always Learning & Neural Architecture
+## 🧠 Neural Architecture & Deep Learning
 
 <div align="center">
   <img src="assets/neural-network.svg" alt="Animated neural network" width="840" />
@@ -82,12 +87,6 @@ I'm a B.Tech student in Artificial Intelligence and Data Science at **Nadar Sara
 <div align="center">
   <img src="assets/divider.svg" alt="" width="800" />
 </div>
-
-## 🌱 Currently Focused On
-
-- 🚀 Advancing in **AI Engineering**, LLM agents, and Deep Learning pipelines
-- 💼 Freelance engineering and technical content creation
-- 🏛️ Building real-world systems for college and community impact
 
 ## 🛠️ Tech Stack & Tooling
 
@@ -104,24 +103,7 @@ I'm a B.Tech student in Artificial Intelligence and Data Science at **Nadar Sara
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
 </div>
 
-## 📫 Connect With Me
-
-<div align="center">
-  <a href="https://linkedin.com/in/pandeeswaranp08"><img src="https://img.shields.io/badge/LinkedIn-pandeeswaranp08-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/pandeeswaran-08"><img src="https://img.shields.io/badge/GitHub-pandeeswaran--08-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="mailto:pandeesp448@gmail.com"><img src="https://img.shields.io/badge/Email-pandeesp448@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</div>
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pandeeswaran-08&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub stats" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pandeeswaran-08&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" height="170" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pandeeswaran-08&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</div>
+<br/>
 
 ## 📟 Contribution Monitor
 
@@ -133,13 +115,41 @@ I'm a B.Tech student in Artificial Intelligence and Data Science at **Nadar Sara
   </picture>
 </div>
 
+<br/>
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img src="assets/github-stats.svg" alt="GitHub stats" width="48%" />
+  <img src="assets/top-langs.svg" alt="Top languages" width="48%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=pandeeswaran-08&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</div>
+
+<br/>
+
 ## 🐍 Contribution Snake
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pandeeswaran-08/pandeeswaran-08/output/github-snake-dark.svg" />
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/pandeeswaran-08/pandeeswaran-08/output/github-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
+    <img alt="Contribution snake animation" src="assets/github-snake-dark.svg" width="100%" />
   </picture>
+</div>
+
+<br/>
+
+## 📫 Connect With Me
+
+<div align="center">
+  <a href="https://linkedin.com/in/pandeeswaranp08"><img src="https://img.shields.io/badge/LinkedIn-pandeeswaranp08-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/pandeeswaran-08"><img src="https://img.shields.io/badge/GitHub-pandeeswaran--08-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:pandeesp448@gmail.com"><img src="https://img.shields.io/badge/Email-pandeesp448@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </div>
 
 <br/>
