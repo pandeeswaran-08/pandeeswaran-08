@@ -1,6 +1,8 @@
 <!-- Profile Header Banner -->
 <div align="center">
-  <img src="pandeeswaran_linkedin_profile.gif" alt="My LinkedIn Profile Animation" width="817" style="max-width: 817px; width: 100%; border-radius: 14px;" />
+  <a href="https://linkedin.com/in/pandeeswaranp08">
+    <img src="pandeeswaran_linkedin_profile.gif" alt="Pandeeswaran Pichaipandi LinkedIn Profile" width="817" style="max-width: 817px; width: 100%; border-radius: 14px;" />
+  </a>
 </div>
 
 <!-- Animated wave header -->
