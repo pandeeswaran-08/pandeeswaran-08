@@ -1,6 +1,6 @@
-<!-- Magical portal animation (head) -->
+<!-- Profile Header Banner -->
 <div align="center">
-  <img src="magical_portal_animation.gif" alt="Magical Portal Animation" width="100%" />
+  <img src="pandeeswaran_linkedin_profile.gif" alt="My LinkedIn Profile Animation" width="817" style="max-width: 817px; width: 100%; border-radius: 14px;" />
 </div>
 
 <!-- Animated wave header -->
