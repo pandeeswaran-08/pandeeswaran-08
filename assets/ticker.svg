@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 48" width="800" height="48" fill="none">
+  <defs>
+    <linearGradient id="tickerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#161b22" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#36bcf7" stop-opacity="0.2"/>
+      <stop offset="30%" stop-color="#38ef7d" stop-opacity="0.7"/>
+      <stop offset="70%" stop-color="#ffb347" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#36bcf7" stop-opacity="0.2"/>
+    </linearGradient>
+    <clipPath id="tickerClip">
+      <rect x="2" y="2" width="796" height="44" rx="10"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .track {
+      display: flex;
+      animation: marquee 24s linear infinite;
+    }
+    .track:hover {
+      animation-play-state: paused;
+    }
+    .tech-pill {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #e6edf3;
+      letter-spacing: 0.05em;
+    }
+    .dot {
+      fill: #ffb347;
+      opacity: 0.8;
+    }
+    .cyan-text { fill: #36bcf7; font-weight: 700; }
+    .green-text { fill: #38ef7d; font-weight: 700; }
+    .gold-text { fill: #ffb347; font-weight: 700; }
+  </style>
+
+  <!-- Container -->
+  <rect x="1" y="1" width="798" height="46" rx="10" fill="url(#tickerBg)" stroke="url(#borderGrad)" stroke-width="1.2"/>
+
+  <!-- Left/Right Fade Mask -->
+  <g clip-path="url(#tickerClip)">
+    <g class="track">
+      <!-- Item sequence (duplicated for infinite loop) -->
+      <g>
+        <text y="29" class="tech-pill">
+          <tspan x="20" class="cyan-text">⚡ AI &amp; LLMs</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="green-text">Python</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="gold-text">FastAPI</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="cyan-text">PyTorch</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="green-text">GraphSAGE</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="gold-text">React</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="cyan-text">Next.js</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="green-text">NestJS</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="gold-text">LangChain</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="cyan-text">PostGIS</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="green-text">GeoSentinel</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="gold-text">Docker</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+        </text>
+      </g>
+      <!-- Duplicate for smooth continuous scroll -->
+      <g transform="translate(1080, 0)">
+        <text y="29" class="tech-pill">
+          <tspan x="20" class="cyan-text">⚡ AI &amp; LLMs</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="green-text">Python</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="gold-text">FastAPI</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="cyan-text">PyTorch</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="green-text">GraphSAGE</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="gold-text">React</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="cyan-text">Next.js</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="green-text">NestJS</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="gold-text">LangChain</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="cyan-text">PostGIS</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="green-text">GeoSentinel</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+          <tspan dx="16" class="gold-text">Docker</tspan>
+          <tspan dx="16" class="dot">◆</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
+
